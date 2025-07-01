@@ -3,11 +3,11 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: mdprofiles.fhir.leumit.co.il
-canonical: http://md.fhir.leumit.co.il
-name: LeumitMDProfiles
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+id: il.fhir.r4.leumit-hdp
+canonical: http://fhir.leumit.co.il
+name: Leumit-HDP
+title: Leumit Health Service Profiles
+description: FHIR Profiles and Implementation Guide for Leumit Health Service
 status: draft # draft | active | retired | unknown
 version: 0.2.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
@@ -16,21 +16,17 @@ releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | re
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  name: Leumit Health Services
-  url: http://leumit.co.il
-  # email: test@example.org
+  name: Leumit Health Service
+  url: https://www.leumit.co.il
 
-# The dependencies property corresponds to IG.dependsOn. The key is the
-# package id and the value is the version (or dev/current). For advanced
-# use cases, the value can be an object with keys for id, uri, and version.
-#
+
 dependencies:
-  il.core.fhir.r4: 0.17.5
-#   hl7.fhir.us.core: 3.1.0
-#   hl7.fhir.us.mcode:
-#     id: mcode
-#     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
-#     version: 1.0.0
+  il.core.fhir.r4: 
+    uri: http://fhir.health.gov.il/ImplementationGuide/il.core.fhir.r4
+    version: 0.17.5
+  il.hdp.fhir.r4: 
+    uri: http://fhir.health.gov.il/ImplementationGuide/il.core.hdp.r4
+    version: 0.1.0
 #
 #
 # The pages property corresponds to IG.definition.page. SUSHI can

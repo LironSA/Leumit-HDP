@@ -1,7 +1,7 @@
 {
-  "name": "{project name}",
+  "name": "il.fhir.r4.leumit-hdp",
   "version": "0.1.0",
-  "description": "{description}",
+  "description": "FHIR Profiles and Implementation Guide for Leumit Health Service",
   "type": "module",
   "scripts": {
     "ruleset": "node updateRuleSet.js",
@@ -17,13 +17,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/{organization}/{repository_name}.git"
+    "url": "git+https://github.com/Outburn-IL/Leumit-HDP.git"
   },
-  "author": "{publisher_full_name}",
+  "author": "Leumit Health Service",
   "bugs": {
-    "url": "https://github.com/{organization}/{repository_name}/issues" 
+    "url": "git+https://github.com/Outburn-IL/Leumit-HDP/issues" 
   },
-  "homepage": "https://github.com/{organization}/{repository_name}#readme",
+  "homepage": "git+https://github.com/Outburn-IL/Leumit-HDP#readme",
   "dependencies": {
     "adm-zip": "^0.5.14",
     "axios": "^1.7.2",
