@@ -3,7 +3,6 @@ Parent: il-hdp-condition
 Id: leumit-diag-tmr
 Title: "Leumit Diagnosis Tamar"
 Description: "Leumit Diagnosis records - Source System:Tamar"
-* insert ConformanceMetadata
 
 
 // * meta.security[HDP].system = "http://fhir.health.gov.il/cs/il-hdp-information-buckets" (exactly)
